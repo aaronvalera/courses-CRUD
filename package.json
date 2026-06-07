@@ -1,0 +1,25 @@
+{
+  "name": "courses-crud",
+  "version": "1.0.0",
+  "description": "A backend CRUD API for managing courses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronvalera/courses-CRUD.git"
+  },
+  "keywords": [],
+  "author": "Aaron Valera",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aaronvalera/courses-CRUD/issues"
+  },
+  "homepage": "https://github.com/aaronvalera/courses-CRUD#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
