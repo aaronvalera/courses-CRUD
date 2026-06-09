@@ -1,5 +1,5 @@
 let coursesInfo = {
-    programming: [
+    programmingCourses: [
         {
             id: 1,
             title: "Learn Python",
@@ -43,7 +43,7 @@ let coursesInfo = {
             level: "intermediate"
         }
     ],
-    mathematics: [
+    mathematicsCourses: [
         {
             id: 1,
             title: "Learn Algebra",
@@ -102,3 +102,5 @@ let coursesInfo = {
         }
     ]
 }
+
+module.exports = coursesInfo;
