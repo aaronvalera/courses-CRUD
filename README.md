@@ -7,10 +7,11 @@ This project is a RESTful API built with **Node.js** and **Express** that allows
 ## Index
 1.[Prerequisites](#prerequisites)
 2.[Installation and Setup](#installation-and-setup)
-3.[Available Endpoints](#available-endpoints)
-    3.1 [Programming Module](#programming-module)
-    3.2 [Mathematics Module](#mathematics-module)
-4.
+3.[How to use Insomnia](#how-to-use-insomnia)
+4.[Available Endpoints](#available-endpoints)
+    - [Programming Module](#programming-module)
+    - [Mathematics Module](#mathematics-module)
+5.[Client Request Examples](#client-request-examples)
 
 ## Prerequisites
 
@@ -62,6 +63,8 @@ After that, copy the following code in your terminal (bash/powershell):
 2. **Configure Body:** If you are using POST/PUT/PATCH, click on the **Body** tab, select **JSON** and configure the object.
 
 <img src="./assets/img/configure-body.png" alt="Configure Body" width="600">
+
+---
 
 ## Available Endpoints
 
