@@ -97,7 +97,7 @@ After that, copy the following code in your terminal (bash/powershell):
 
 ---
 
-## 📖 Client Request Examples
+## Client Request Examples
 
 ### GET (Filter by views from least to most)
 `GET http://localhost:3000/api/courses/programming?sort=views`
