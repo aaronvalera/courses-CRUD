@@ -5,13 +5,13 @@ This project is a RESTful API built with **Node.js** and **Express** that allows
 ---
 
 ## Index
-1.[Prerequisites](#prerequisites)
-2.[Installation and Setup](#installation-and-setup)
-3.[How to use Insomnia](#how-to-use-insomnia)
-4.[Available Endpoints](#available-endpoints)
-    - [Programming Module](#programming-module)
-    - [Mathematics Module](#mathematics-module)
-5.[Client Request Examples](#client-request-examples)
+1. [Prerequisites](#prerequisites)
+2. [Installation and Setup](#installation-and-setup)
+3. [How to use Insomnia](#how-to-use-insomnia)
+4. [Available Endpoints](#available-endpoints)
+   - [Programming Module](#programming-module)
+   - [Mathematics Module](#mathematics-module)
+5. [Client Request Examples](#client-request-examples)
 
 ## Prerequisites
 
