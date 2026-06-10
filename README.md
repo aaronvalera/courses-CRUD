@@ -32,9 +32,9 @@ Click on the green **"Code"** button on this GitHub repo, copy the https method:
 
 <img src="./assets/img/clone-repo.png" alt="How to clone the repository" width="600">
 
-After that, copy the following code in your terminal:
+After that, copy the following code in your terminal (bash/powershell):
 
-1. **bash/powershell**
+1. **Clone the repository**
 
     ```bash/powershell
     git clone <repository-url>
@@ -73,8 +73,8 @@ After that, copy the following code in your terminal:
 | :--- | :--- | :--- | :--- |
 | **GET** | `/` | Returns the full list of programming courses. | **Success:** `200 OK` |
 | **GET** | `/?sort=views` | Returns the full list of programming courses sorted by views from least to most. | **Success:** `200 OK` |
-| **GET** | `/:language` | Filters courses by language (example. `javascript`). Allows sorting. | **Error:** `404` if the language is not found. |
-| **GET** | `/:language/:level` | Filter courses by language and difficulty level (example. `beginner`). | **Error:** `404` if there are no matches. |
+| **GET** | `/:language` | Filters courses by language (example: `javascript`). | **Error:** `404` if the language is not found. |
+| **GET** | `/:language/:level` | Filter courses by language and difficulty level (example: `beginner`). | **Error:** `404` if there are no matches. |
 | **POST** | `/` | Registers a new course in the database. | **Body:** JSON with the properties of the course. **Error:** `400` if the ID is repeated. |
 | **PUT** | `/:id` | Replaces an existing course in its entirety. | **Body:** entire JSON. **Error:** `404` if the ID is not found. |
 | **PATCH** | `/:id` | Modifies specific properties of a course. | **Body:** JSON with properties to update. **Error:** `404` if the ID is not found. |
@@ -88,8 +88,8 @@ After that, copy the following code in your terminal:
 | :--- | :--- | :--- | :--- |
 | **GET** | `/` | Returns the full list of mathematics courses. | **Success:** `200 OK` |
 | **GET** | `/?sort=views` | Returns the full list of mathematics courses sorted by views from least to most. | **Success:** `200 OK` |
-| **GET** | `/:subject` | Filters courses by language (example. `javascript`). Allows sorting. | **Error:** `404` if the subject is not found. |
-| **GET** | `/:subject/:level` | Filter courses by language and difficulty level (example. `beginner`). | **Error:** `404` if there are no matches. |
+| **GET** | `/:subject` | Filters courses by language (example: `javascript`). | **Error:** `404` if the subject is not found. |
+| **GET** | `/:subject/:level` | Filter courses by language and difficulty level (example: `beginner`). | **Error:** `404` if there are no matches. |
 | **POST** | `/` | Registers a new course in the database. | **Body:** JSON with the properties of the course. **Error:** `400` if the ID is not found. |
 | **PUT** | `/:id` | Replaces an existing course in its entirety. | **Body:** entire JSON. **Error:** `404` if the ID is not found. |
 | **PATCH** | `/:id` | Modifies specific properties of a course. | **Body:** JSON with properties to update. **Error:** `404` if the ID is not found. |
