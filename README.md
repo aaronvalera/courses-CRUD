@@ -28,7 +28,7 @@ Follow these steps to run the server locally:
 
 1. **Clone the repository:**
 
-Click on the green **"code"** button on this GitHub repo, copy the https method:
+Click on the green **"Code"** button on this GitHub repo, copy the https method:
 
 <img src="./assets/img/clone-repo.png" alt="How to clone the repository" width="600">
 
